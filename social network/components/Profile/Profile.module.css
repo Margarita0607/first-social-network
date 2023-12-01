@@ -1,0 +1,10 @@
+.content {
+    grid-area: c;
+    background-color: rgb(233, 215, 203);
+}
+ .content img {
+    size: 700px 700px;
+    margin: 0cm;
+    padding: 50px;
+    }
+  
