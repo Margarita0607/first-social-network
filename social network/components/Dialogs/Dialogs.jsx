@@ -8,6 +8,7 @@ import { sendMessageCreator, updateNewMessageBodyCreator } from '../redux/dialog
 // import AddMessageForm from "./AddMessageForm/AddMessageForm";
 
 const Dialogs = (props) => {
+    
  let state = props.store.getState().dialogsPage;
 
     let dialogsElements = state.dialogs.map(d => <DialogItem name={d.name} id={d.id} />);
